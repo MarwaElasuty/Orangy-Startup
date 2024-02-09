@@ -25,7 +25,7 @@ nav {
 
 /* nav and ul media query  */
 @media screen and (max-width: 1200px) and (min-width:992px) {
-    ul{
+    ul {
         flex-direction: column;
     }
 
@@ -37,7 +37,7 @@ nav {
         display: block;
     }
 
-    
+
 
     .display {
         display: flex;
@@ -48,14 +48,16 @@ nav {
         font-size: 18px;
         position: absolute;
         top: 91px;
-        font-size: 36px;
-        right: 14px;
+        z-index: 2;
+        font-size: 29px;
+        right: 10px;
         text-align: center;
-        padding: 34px;
+        padding: 12px;
         border: 3px solid black;
         border-radius: 15px;
         background-color: white;
     }
+
     .ul-list li {
         padding-bottom: 20px;
     }
@@ -66,13 +68,15 @@ nav {
     .ul-list {
         display: none;
     }
-    ul{
+
+    ul {
         flex-direction: column;
     }
 
     .ul-list li {
         padding-bottom: 20px;
     }
+
     .display {
         display: flex;
         list-style: none;
@@ -82,10 +86,11 @@ nav {
         font-size: 18px;
         position: absolute;
         top: 91px;
-        font-size: 36px;
-        right: 14px;
+        z-index: 2;
+        font-size: 29px;
+        right: 10px;
         text-align: center;
-        padding: 34px;
+        padding: 12px;
         border: 3px solid black;
         border-radius: 15px;
         background-color: white;
@@ -101,6 +106,7 @@ nav {
     .ul-list {
         display: none;
     }
+
     .ul-list li {
         padding-bottom: 20px;
     }
@@ -114,17 +120,18 @@ nav {
         font-size: 18px;
         position: absolute;
         top: 91px;
-        font-size: 36px;
-        right: 14px;
+        z-index: 2;
+        font-size: 29px;
+        right: 10px;
         text-align: center;
-        padding: 34px;
+        padding: 12px;
         border: 3px solid black;
         border-radius: 15px;
         background-color: white;
-        z-index: 2;
 
     }
-    ul{
+
+    ul {
         flex-direction: column;
     }
 
@@ -140,6 +147,7 @@ nav {
     .ul-list {
         display: none;
     }
+
     .ul-list li {
         padding-bottom: 20px;
     }
@@ -154,16 +162,16 @@ nav {
         position: absolute;
         top: 91px;
         z-index: 2;
-        font-size: 36px;
-        right: 14px;
+        font-size: 29px;
+        right: 10px;
         text-align: center;
-        padding: 34px;
+        padding: 12px;
         border: 3px solid black;
         border-radius: 15px;
         background-color: white;
     }
 
-    ul{
+    ul {
         flex-direction: column;
     }
 
@@ -185,26 +193,30 @@ nav {
 }
 
 
-.nav-btns{
+.nav-btns {
     display: flex;
     align-items: center;
     column-gap: 10px;
 }
-ul{
+
+ul {
     display: flex;
     list-style-type: none;
     column-gap: 109px;
 }
-.menu-w-btns{
+
+.menu-w-btns {
     display: none;
     /* display: flex;
     column-gap: 10px;
     align-items: center; */
 }
+
 img[alt="burger-menu"] {
     display: block;
 }
-button[name="login-btn"]{
+
+button[name="login-btn"] {
     padding: 10px;
     width: 100px;
     font-size: 21px;
@@ -215,7 +227,7 @@ button[name="login-btn"]{
 
 }
 
-button[name="get-started-btn"]{
+button[name="get-started-btn"] {
     padding: 10px;
     width: 136px;
     font-size: 21px;
@@ -233,11 +245,13 @@ button[name="get-started-btn"]{
     column-gap: 37px;
     justify-content: space-between;
 }
-.lock-icon-w-btn{
+
+.lock-icon-w-btn {
     display: flex;
     column-gap: 5px;
     align-items: center;
 }
+
 .login-btn-div {
     display: flex;
     column-gap: 5px;
@@ -316,7 +330,7 @@ img[alt="back-img"] {
         width: 100%;
     }
 
-    .menu-w-btns{
+    .menu-w-btns {
         display: flex;
         column-gap: 10px;
         align-items: center;
@@ -335,7 +349,8 @@ img[alt="back-img"] {
     .background-desc>p {
         width: 100%;
     }
-    .menu-w-btns{
+
+    .menu-w-btns {
         display: flex;
         column-gap: 10px;
         align-items: center;
@@ -354,7 +369,8 @@ img[alt="back-img"] {
     .background-desc>p {
         width: 100%;
     }
-    .menu-w-btns{
+
+    .menu-w-btns {
         display: flex;
         column-gap: 10px;
         align-items: center;
@@ -373,7 +389,8 @@ img[alt="back-img"] {
     .background-desc>p {
         width: 100%;
     }
-    .menu-w-btns{
+
+    .menu-w-btns {
         display: flex;
         column-gap: 10px;
         align-items: center;
@@ -427,7 +444,7 @@ img[alt="back-img"] {
     border-radius: 6px;
     background-color: #edf3f8;
     row-gap: 25px;
-    
+
 }
 
 .inner-support p {
@@ -436,7 +453,8 @@ img[alt="back-img"] {
 
 #inner-white {
     background-color: white;
-    box-shadow: 2px 6px 7px gainsboro;;
+    box-shadow: 2px 6px 7px gainsboro;
+    ;
 }
 
 .do-you-div {
@@ -447,7 +465,7 @@ img[alt="back-img"] {
     justify-content: space-between;
 }
 
-.do-you-div > h3 {
+.do-you-div>h3 {
     font-size: 20px;
 }
 
@@ -514,16 +532,16 @@ img[alt="back-img"] {
     padding-bottom: 20px;
 }
 
-.premieum-heading-div{
+.premieum-heading-div {
     display: flex;
 }
 
-img[alt="wow"]{
+img[alt="wow"] {
     padding-left: 15px;
     padding-top: 11px;
 }
 
-img[alt="angel"]{
+img[alt="angel"] {
     padding-left: 15px;
     padding-top: 11px;
 }
@@ -663,12 +681,12 @@ img[alt="chat"] {
     width: 45%;
 }
 
-.one-app-desc > h3{
+.one-app-desc>h3 {
     font-size: 40px;
     padding-bottom: 30px;
 }
 
-.one-app-desc > p{
+.one-app-desc>p {
     font-size: 19px;
     line-height: 35px;
 }
@@ -784,7 +802,7 @@ img[alt="chat"] {
 
 .rank-w-performance {
     display: flex;
-    padding-top: 78px;
+    padding-top: 40px;
     align-items: center;
     justify-content: flex-end;
     flex-wrap: wrap;
@@ -869,6 +887,7 @@ img[alt="rank"] {
     .rank-img {
         width: 80%;
     }
+
     .inner-boost {
         width: 90%;
         flex-wrap: wrap;
@@ -953,9 +972,11 @@ img[alt="rank"] {
     width: 86%;
     font-size: 17px;
 }
-.offer > .grey-text{
+
+.offer>.grey-text {
     color: grey;
 }
+
 .deals-cards {
     display: flex;
     justify-content: center;
@@ -1065,11 +1086,12 @@ button[name="free-trial-btn2"] {
     .offer>p {
         width: 100%;
     }
-    .left-column{
+
+    .left-column {
         width: 44%;
     }
 
-    .right-column{
+    .right-column {
         width: 49%;
     }
 
@@ -1088,11 +1110,12 @@ button[name="free-trial-btn2"] {
     .offer>p {
         width: 100%;
     }
-    .left-column{
+
+    .left-column {
         width: 43%;
     }
 
-    .right-column{
+    .right-column {
         width: 44%;
     }
 
@@ -1113,11 +1136,11 @@ button[name="free-trial-btn2"] {
         width: 100%;
     }
 
-    .left-column{
+    .left-column {
         width: 43%;
     }
 
-    .right-column{
+    .right-column {
         width: 44%;
     }
 }
@@ -1135,11 +1158,12 @@ button[name="free-trial-btn2"] {
     .offer>p {
         width: 100%;
     }
-    .left-column{
+
+    .left-column {
         width: 43%;
     }
 
-    .right-column{
+    .right-column {
         width: 44%;
     }
 }
@@ -1293,7 +1317,7 @@ img[alt="feedback-client"] {
     } */
 
     #shadowed-card {
-        height:fit-content;
+        height: fit-content;
     }
 }
 
@@ -1323,7 +1347,7 @@ img[alt="feedback-client"] {
     } */
 
     #shadowed-card {
-        height:fit-content;
+        height: fit-content;
     }
 }
 
@@ -1331,7 +1355,8 @@ img[alt="feedback-client"] {
     .feedback-cards {
         flex-wrap: wrap;
     }
-/* 
+
+    /* 
     .second-card-fst-column {
         height: 244px;
     } */
@@ -1353,7 +1378,7 @@ img[alt="feedback-client"] {
     } */
 
     #shadowed-card {
-        height:fit-content;
+        height: fit-content;
     }
 }
 

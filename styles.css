@@ -298,7 +298,7 @@ button[name="get-start-btn"] {
 }
 
 img[alt="back-img"] {
-    width: 100%;
+    width: 90%;
 }
 
 
@@ -499,7 +499,7 @@ img[alt="back-img"] {
 }
 
 .premieum-desc-div {
-    width: 45%;
+    width: 33%;
 }
 
 .premieum-desc-div h3 {
@@ -642,7 +642,7 @@ img[alt="features"] {
 
 .correct-w-text-main-div {
     display: flex;
-    column-gap: 10px;
+    column-gap: 25px;
     flex-wrap: wrap;
     margin-top: 30px;
     row-gap: 15px;
@@ -953,7 +953,9 @@ img[alt="rank"] {
     width: 86%;
     font-size: 17px;
 }
-
+.offer > .grey-text{
+    color: grey;
+}
 .deals-cards {
     display: flex;
     justify-content: center;
@@ -1064,11 +1066,11 @@ button[name="free-trial-btn2"] {
         width: 100%;
     }
     .left-column{
-        width: 100%;
+        width: 44%;
     }
 
     .right-column{
-        width: 100%;
+        width: 49%;
     }
 
 }
@@ -1087,11 +1089,11 @@ button[name="free-trial-btn2"] {
         width: 100%;
     }
     .left-column{
-        width: 100%;
+        width: 43%;
     }
 
     .right-column{
-        width: 100%;
+        width: 44%;
     }
 
 }
@@ -1112,11 +1114,11 @@ button[name="free-trial-btn2"] {
     }
 
     .left-column{
-        width: 100%;
+        width: 43%;
     }
 
     .right-column{
-        width: 100%;
+        width: 44%;
     }
 }
 
@@ -1134,11 +1136,11 @@ button[name="free-trial-btn2"] {
         width: 100%;
     }
     .left-column{
-        width: 100%;
+        width: 43%;
     }
 
     .right-column{
-        width: 100%;
+        width: 44%;
     }
 }
 
